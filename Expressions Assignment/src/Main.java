@@ -24,7 +24,7 @@ public class Main {
         System.out.println(5 + 5 - (4 - 8)/3);
         System.out.println(5 + 5 - (-4)/3);
         System.out.println(5 + 5 - (-4)/3);
-        System.out.println(5 + 5 - (-1);
+        System.out.println(5 + 5 - (-1));
         System.out.println(10 - (-1));
         System.out.println(10 + 1);
         System.out.println(11);
