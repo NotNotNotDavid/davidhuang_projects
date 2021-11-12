@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7eb13c6-df58-455f-a761-ea9afc875a97" name="Changes" comment="" />
+    <list default="true" id="6bfa8781-e335-4f0e-aabb-146a43daf38d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="20hYZzXEUi7PYPrLbsJM7fWRl4x" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,7 +18,6 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -31,7 +26,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="davidhuang_projects" />
+      <module name="VariableAssignment" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -45,15 +40,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a7eb13c6-df58-455f-a761-ea9afc875a97" name="Changes" comment="" />
-      <created>1636498345995</created>
+      <changelist id="6bfa8781-e335-4f0e-aabb-146a43daf38d" name="Changes" comment="" />
+      <created>1636584597038</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1636498345995</updated>
-      <workItem from="1636498348292" duration="881000" />
-      <workItem from="1636581165188" duration="1236000" />
-      <workItem from="1636582736743" duration="502000" />
-      <workItem from="1636584035414" duration="1000" />
+      <updated>1636584597038</updated>
+      <workItem from="1636584600483" duration="651000" />
     </task>
     <servers />
   </component>
