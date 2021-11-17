@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142f82e6-b202-427b-8aff-152a49559b8d" name="Changes" comment="" />
+    <list default="true" id="4df8c9d1-2cc5-4fe0-87a9-34c69a36a182" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="211EyCOAkOPhXaZqShymQv4vZRw" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="21443qDNAmMGLI1QC3e1BnMubs1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,7 +46,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="ifElsePractice" />
+      <module name="rockPaperScissors" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -52,14 +60,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="142f82e6-b202-427b-8aff-152a49559b8d" name="Changes" comment="" />
-      <created>1637100449660</created>
+      <changelist id="4df8c9d1-2cc5-4fe0-87a9-34c69a36a182" name="Changes" comment="" />
+      <created>1637186829355</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1637100449660</updated>
-      <workItem from="1637100452430" duration="3808000" />
-      <workItem from="1637186253588" duration="27000" />
-      <workItem from="1637186288631" duration="190000" />
+      <updated>1637186829355</updated>
+      <workItem from="1637186831094" duration="3321000" />
     </task>
     <servers />
   </component>
