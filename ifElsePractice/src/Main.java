@@ -37,7 +37,7 @@ public class Main {
 //    In this section, you're going to try to guess what you think the if statement is and what it does.
 //    What do you think else if and else are doing? Answer in a comment.
     // Else if's and else's are comparing the numbers given to their condition. Their job is to see if the statement
-    // is true or not.
+    // is true or not. If true, something happens, if false, another statement is reached.
 
 //    Remove the else part at the beginning of one of the else if statements. What difference does that make? Why? Answer in a comment.
 //    If else is removed from "else if", then the "else if" would become a singular if, meaning that it would run
@@ -160,7 +160,7 @@ public class Main {
         }
         System.out.println("Thanks for playing!");
         System.out.println("you scored " + count + " out of 3 questions correctly");
-        
+
     }
 
 }
