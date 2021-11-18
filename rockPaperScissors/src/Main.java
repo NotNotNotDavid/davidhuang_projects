@@ -12,8 +12,13 @@ public class Main {
     public static void game(){
         Scanner scanner = new Scanner(System.in);
         double compRandom = Math.random()*3;
-        System.out.println("What is your selection? (Choose a number from 1. rock, 2. paper, or 3.scissors)");
-        int inputAns = scanner.nextInt();
+        System.out.println("What is your selection? (Choose a number from 1. Rock, 2. Paper, or 3. Scissors)");
+        int inputAns = -1;
+        try {
+            inputAns = scanner.nextInt();
+        } catch (Exception e) {
+            System.out.println("try again!");
+        }
         if (inputAns > 3 || inputAns < 0){
             System.out.println("Please select a number from 1, 2 or 3");
             game();
