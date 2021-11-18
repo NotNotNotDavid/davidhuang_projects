@@ -11,7 +11,7 @@ public class Main {
         game();
     }
     public static void game(){
-        
+
         for (int i = 0; i < 25; i++) {
             System.out.print("*");
         }
