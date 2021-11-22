@@ -51,12 +51,14 @@ public class Main {
                         System.out.println("You chose: " + userSelect + ". The computer chose: paper");
                         System.out.println("You Lose");
                         System.out.println();
+                        compScore++;
                         returnScore();
                         playAgain();
                     }
                     else if (compRandom >= 2 && compRandom <= 3){
                         System.out.println("You chose: " + userSelect + ". The computer chose: scissors");
                         System.out.println("You Win!");
+                        userScore++;
                         System.out.println();
                         returnScore();
                         playAgain();
@@ -67,6 +69,7 @@ public class Main {
                     if (compRandom > 0 && compRandom < 1){
                         System.out.println("You chose: " + userSelect + ". The computer chose: rock");
                         System.out.println("You Win!");
+                        userScore++;
                         System.out.println();
                         returnScore();
                         playAgain();
@@ -81,6 +84,7 @@ public class Main {
                     else if (compRandom >= 2 && compRandom <= 3){
                         System.out.println("You chose: " + userSelect + ". The computer chose: scissors");
                         System.out.println("You Lose");
+                        compScore++;
                         System.out.println();
                         returnScore();
                         playAgain();
@@ -91,6 +95,7 @@ public class Main {
                     if (compRandom > 0 && compRandom < 1){
                         System.out.println("You chose: " + userSelect + ". The computer chose: rock");
                         System.out.println("You Lose");
+                        compScore++;
                         System.out.println();
                         returnScore();
                         playAgain();
@@ -98,6 +103,7 @@ public class Main {
                     else if (compRandom >= 1 && compRandom < 2){
                         System.out.println("You chose: " + userSelect + ". The computer chose: paper");
                         System.out.println("You Win!");
+                        userScore++;
                         System.out.println();
                         returnScore();
                         playAgain();
