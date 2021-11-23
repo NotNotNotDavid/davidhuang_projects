@@ -30,7 +30,7 @@ public class Main {
         System.out.println("What is your selection? (Choose a number from 1. Rock, 2. Paper, or 3. Scissors)");
 
         // Error handling for texts and irregular numbers
-        int inputPlayAgain;
+
         int inputAns = -1;
         try {
             inputAns = scanner.nextInt();
