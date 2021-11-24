@@ -19,19 +19,19 @@ public class Main {
          */
 
         int[] list1 = {1,2,3,4,5};
-        int listLength = list1.length;
 
-//        System.out.println(Arrays.toString(addToEnd(6, listLength, list1)));
-//        System.out.println(Arrays.toString(backspace(listLength,list1)));
+//        System.out.println(Arrays.toString(addToEnd(6, list1)));
+//        System.out.println(Arrays.toString(backspace(list1)));
 
-//        System.out.println(Arrays.toString(addAnywhere(6, listLength, list1, 2)));
+//        System.out.println(Arrays.toString(addAnywhere(6, list1, 3)));
 
 
 
     }
 
 
-    public static int[] addToEnd(int num, int arrLength, int[] arr){
+    public static int[] addToEnd(int num, int[] arr){
+        int arrLength = arr.length;
         int[] newList = new int[arrLength+1];
         for (int i = 0; i < arrLength; i++) {
             newList[i] = arr[i];
@@ -41,7 +41,8 @@ public class Main {
 
     }
 
-    public static int[] backspace(int arrLength, int[] arr){
+    public static int[] backspace(int[] arr){
+        int arrLength = arr.length;
         int[] newList = new int[arrLength - 1];
         for (int i = 0; i < arrLength - 1; i++) {
             newList[i] = arr[i];
@@ -50,12 +51,16 @@ public class Main {
 
     }
 
-    public static int[] addAnywhere(int num, int arrLength, int[] arr, int index){
+    public static int[] addAnywhere(int num, int[] arr, int index){
+        int arrLength = arr.length;
         int[] newList = new int[arrLength+1];
-        for (int i = 0; i < arrLength; i++) {
+        for (int i = 0; i < index; i++) {
             newList[i] = arr[i];
         }
         newList[index] = num;
+        for (int i = index + 1; i < arrLength + 1; i++) {
+            newList[i] = arr[i - 1];
+        }
         return newList;
 
     }
