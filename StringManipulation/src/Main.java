@@ -3,10 +3,10 @@ public class Main {
 
 
         String string1 = "azcbobobegghakl";
-        String string2 = "bobxdfcgvhbjkn";
+        String string2 = "bobxdfboboobobobcgvhbjbbobkn";
 
 //        System.out.println(manyVowels(string1));
-        System.out.println(manyBob(string2));
+        System.out.println(manyBob(string1));
 
 
     }
@@ -50,15 +50,9 @@ public class Main {
     public static int manyBob(String str){
         int count = 0;
         int stringLength = str.length();
-        for (int i = 0; i < stringLength; i++) {
-            if (i + 2 > stringLength){
-                return count;
-            }
-            if (str.substring(i, i + 1).equals("bob")){
+        for (int i = 0; i < stringLength-2; i++) {
+            if (str.substring(i, i + 3).equals("bob")){
                 count++;
-            }
-            else{
-                return count;
             }
         }
         return count;
