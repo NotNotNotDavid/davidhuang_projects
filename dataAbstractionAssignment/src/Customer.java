@@ -18,6 +18,11 @@ public class Customer {
         //this is default
     }
 
+    public double getCheckBalance() {
+        return checkBalance;
+    }
+
+
     public Customer(String name, int accountNumber, double checkDeposit, double savingDeposit) {
         this.name = name;
         this.accountNumber = accountNumber;
@@ -39,26 +44,31 @@ public class Customer {
     }
 
     public double withdraw(double amt, Date date, String account) {
-        this.withdraws.add(new Withdraw(amt, date, account));
+
         if(account.equals(CHECKING)){
-            checkBalance = checkBalance - amt;
-            return checkBalance;
+            if (!checkOverdraft(amt,account)){
+                this.withdraws.add(new Withdraw(amt, date, account));
+                return checkBalance = checkBalance - amt;
+            }
+            else return checkBalance;
         }
         else if (account.equals(SAVING)){
-            savingBalance = savingBalance - amt;
-            return savingBalance;
+            if (!checkOverdraft(amt,account)){
+                this.withdraws.add(new Withdraw(amt, date, account));
+                return savingBalance = savingBalance - amt;
+            }
+            else return savingBalance;
+
         }
         return savingBalance;
     }
 
     public boolean checkOverdraft(double amt, String account) {
         if(account.equals("CHECKING")){
-            checkBalance = checkBalance - amt;
-            return checkBalance < OVERDRAFT;
+            return checkBalance - amt < OVERDRAFT;
         }
         else if (account.equals("SAVING")){
-            savingBalance = savingBalance - amt;
-            return savingBalance < OVERDRAFT;
+            return savingBalance - amt < OVERDRAFT;
         }
         return false;
     }
