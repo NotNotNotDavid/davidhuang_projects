@@ -4,23 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d1e0616-fe5a-4400-94b5-2a456195bdf7" name="Changes" comment="" />
+    <list default="true" id="ac652b24-d6b3-4847-b003-378c1653298d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2278CN01YaJUnkYkRCjZ964ifMH" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="23ZSci1438ck0rAGR7EKvAZNEYT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,43 +35,51 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="android.project.structure" />
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="dataAbstractionAssignment" />
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.guilesson.HelloApplication" />
+      <module name="GUILesson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.guilesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3d1e0616-fe5a-4400-94b5-2a456195bdf7" name="Changes" comment="" />
-      <created>1639177139078</created>
+      <changelist id="ac652b24-d6b3-4847-b003-378c1653298d" name="Changes" comment="" />
+      <created>1641940197070</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1639177139078</updated>
-      <workItem from="1639177140905" duration="365000" />
-      <workItem from="1639433079334" duration="2849000" />
-      <workItem from="1639518541091" duration="207000" />
-      <workItem from="1639519622320" duration="202000" />
-      <workItem from="1639522067169" duration="955000" />
-      <workItem from="1639605195802" duration="3186000" />
-      <workItem from="1641851374486" duration="359000" />
-      <workItem from="1641851859143" duration="178000" />
-      <workItem from="1641852602060" duration="574000" />
-      <workItem from="1641854172835" duration="3191000" />
+      <updated>1641940197070</updated>
+      <workItem from="1641940198606" duration="2034000" />
+      <workItem from="1642197333587" duration="3274000" />
+      <workItem from="1642456019943" duration="4174000" />
+      <workItem from="1642542573689" duration="653000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
