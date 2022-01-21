@@ -117,4 +117,21 @@ public class Time {
         return this;
     }
 
+    public Time previousSecond(){
+        sec--;
+        if(sec < 0){
+            min--;
+            sec = 59;
+            if (min < 0){
+                hour--;
+                min = 59;
+                if (hour < 0){
+                    hour = 23;
+                    return this;
+                }
+            }
+        }
+        return this;
+    }
+
 }

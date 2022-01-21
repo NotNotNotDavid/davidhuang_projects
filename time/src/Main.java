@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Time clock1 = new Time(23,59,59);
+        Time clock1 = new Time(0,0,0);
         System.out.println(clock1);
-        clock1.nextSecond();
+        clock1.previousSecond();
         System.out.println(clock1);
     }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e3d43e-49a0-4c09-8fa9-e17760e99fd4" name="Changes" comment="" />
+    <list default="true" id="0a1358a4-e2c4-461b-93de-506031e4d06b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="23tBUMiEp7q3smbZYu8MdWXautJ" />
+  <component name="ProjectId" id="23w3AVhs0xfAlLqVRVr2HBWsbfO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,35 +35,36 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.friendbook.HelloApplication" />
-      <module name="friendBook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.friendbook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="readingText" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="24e3d43e-49a0-4c09-8fa9-e17760e99fd4" name="Changes" comment="" />
-      <created>1642543517561</created>
+      <changelist id="0a1358a4-e2c4-461b-93de-506031e4d06b" name="Changes" comment="" />
+      <created>1642631178722</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1642543517561</updated>
-      <workItem from="1642543519116" duration="3896000" />
+      <updated>1642631178722</updated>
+      <workItem from="1642631180301" duration="32000" />
+      <workItem from="1642631228782" duration="1998000" />
+      <workItem from="1642717683296" duration="953000" />
     </task>
     <servers />
   </component>
