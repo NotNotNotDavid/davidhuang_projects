@@ -8,9 +8,9 @@ public class School {
     private static int schoolNumber;
     private String schoolType;
 
-    public School(String schoolName, String schoolType) {
-//        this.teachers = teachers;
-//        this.students = students;
+    public School(ArrayList<Teacher> teachers, ArrayList<Student> students, String schoolName, String schoolType) {
+        this.teachers = teachers;
+        this.students = students;
         this.schoolName = schoolName;
         this.schoolType = schoolType;
         schoolNumber++;

@@ -1,6 +1,8 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        School school1 = new School("Uhill","High School");
+        School school1 = new School(new ArrayList<>(), new ArrayList<>(),"Uhill","High School");
         Student student1 = new Student("Dave", "Mon", 1);
         Student student2 = new Student("Felix", "Bu", 2);
         Student student3 = new Student("Alec", "Situ", 3);
