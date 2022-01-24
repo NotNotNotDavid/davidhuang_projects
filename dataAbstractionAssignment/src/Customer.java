@@ -4,30 +4,32 @@ import java.util.Date;
 
 public class Customer {
     private int accountNumber;
-    private ArrayList<Deposit> deposits = new ArrayList<Deposit>();
-    private ArrayList<Withdraw> withdraws = new ArrayList<Withdraw>();
+    private ArrayList<Deposit> deposits = new ArrayList();
+    private ArrayList<Withdraw> withdraws = new ArrayList();
     private double checkBalance;
     private double savingBalance;
     private double savingRate;
     private String name;
-    public static final String CHECKING = "Checking";
-    public static final String SAVING = "Saving";
+    public static final String CHECKING = "CHECKING";
+    public static final String SAVING = "SAVING";
     private final int OVERDRAFT = -100;
 
     public Customer(){
         //this is default
     }
 
-    public double getCheckBalance() {
-        return checkBalance;
+    public Customer(int accountNumber, ArrayList<Deposit> deposits, ArrayList<Withdraw> withdraws, double checkBalance, double savingBalance, double savingRate, String name) {
+        this.accountNumber = accountNumber;
+        this.deposits = deposits;
+        this.withdraws = withdraws;
+        this.checkBalance = checkBalance;
+        this.savingBalance = savingBalance;
+        this.savingRate = savingRate;
+        this.name = name;
     }
 
-
-    public Customer(String name, int accountNumber, double checkDeposit, double savingDeposit) {
-        this.name = name;
-        this.accountNumber = accountNumber;
-        this.checkBalance = checkDeposit;
-        this.savingBalance = savingDeposit;
+    public double getCheckBalance() {
+        return checkBalance;
     }
 
     public double deposit(double amt, Date date, String account) {
@@ -44,7 +46,6 @@ public class Customer {
     }
 
     public double withdraw(double amt, Date date, String account) {
-
         if(account.equals(CHECKING)){
             if (!checkOverdraft(amt,account)){
                 this.withdraws.add(new Withdraw(amt, date, account));

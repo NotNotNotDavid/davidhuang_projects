@@ -27,12 +27,12 @@ public class Main {
 //        }
 
         ArrayList<String> lines = new ArrayList<>();
-        FileReader fr = new FileReader("in.txt");
+        String wholeText = "";
+        FileReader fr = new FileReader("ProgrammingHistory.txt");
         BufferedReader br = new BufferedReader(fr);
         String line;
         while((line = br.readLine()) != null){
-            System.out.println("Just Read: " + line);
-            lines.add(line);
+            wholeText = wholeText + line;
         }
         br.close();
         for(String s : lines){
@@ -40,11 +40,11 @@ public class Main {
         }
         FileWriter fw = new FileWriter("out.txt",true);
         BufferedWriter bw = new BufferedWriter(fw);
-        bw.write("Writing to OUT file from IN file");
         for (String s : lines){
             bw.write(s + "\r");
 
         }
         bw.close();
     }
+
 }
