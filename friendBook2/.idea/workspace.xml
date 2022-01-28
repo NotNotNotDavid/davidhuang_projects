@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a1358a4-e2c4-461b-93de-506031e4d06b" name="Changes" comment="" />
+    <list default="true" id="2010688e-924e-45e8-9520-3e7884defbc9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="23w3AVhs0xfAlLqVRVr2HBWsbfO" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="24D0sTphoQzuVgzbRJJWzUyxJdK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,45 +43,54 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="readingText" />
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.friendbook2.HelloApplication" />
+      <module name="friendBook2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.friendbook2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0a1358a4-e2c4-461b-93de-506031e4d06b" name="Changes" comment="" />
-      <created>1642631178722</created>
+      <changelist id="2010688e-924e-45e8-9520-3e7884defbc9" name="Changes" comment="" />
+      <created>1643150057037</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1642631178722</updated>
-      <workItem from="1642631180301" duration="32000" />
-      <workItem from="1642631228782" duration="1998000" />
-      <workItem from="1642717683296" duration="953000" />
-      <workItem from="1642802832886" duration="2595000" />
-      <workItem from="1643060729363" duration="305000" />
-      <workItem from="1643063522117" duration="1576000" />
-      <workItem from="1643147147622" duration="2691000" />
-      <workItem from="1643235818689" duration="443000" />
+      <updated>1643150057037</updated>
+      <workItem from="1643150060030" duration="2228000" />
+      <workItem from="1643319967404" duration="724000" />
+      <workItem from="1643320793299" duration="9000" />
+      <workItem from="1643320874426" duration="202000" />
+      <workItem from="1643321100679" duration="119000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

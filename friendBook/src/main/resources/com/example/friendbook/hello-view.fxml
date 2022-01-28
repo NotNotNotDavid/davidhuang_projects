@@ -21,14 +21,12 @@
                         <VBox layoutX="43.0" layoutY="59.0" prefHeight="200.0" prefWidth="100.0" spacing="60.0">
                            <children>
                               <Label text="First Name" />
-                              <Label text="Last Name" />
                               <Label text="Age" />
                            </children>
                         </VBox>
                         <VBox layoutX="143.0" layoutY="60.0" prefHeight="197.0" prefWidth="122.0" spacing="50.0">
                            <children>
                               <TextField fx:id="getFirstName" promptText="First Name" />
-                              <TextField fx:id="getLastName" promptText="Last Name" />
                               <TextField fx:id="getAge" promptText="Age" />
                            </children>
                         </VBox>
@@ -50,11 +48,14 @@
                         </Label>
                         <Label layoutX="307.0" layoutY="150.0" text="First Name" />
                         <Label fx:id="IbIFirstName" layoutX="429.0" layoutY="150.0" />
-                        <Label layoutX="307.0" layoutY="196.0" text="Last Name" />
                         <Label fx:id="IbILastName" layoutX="429.0" layoutY="196.0" />
-                        <Label layoutX="307.0" layoutY="240.0" text="Age" />
+                        <Label layoutX="328.0" layoutY="188.0" text="Age" />
                         <Label fx:id="IbIAge" layoutX="429.0" layoutY="240.0" />
-                        <Button fx:id="deleteFriend" layoutX="343.0" layoutY="82.0" mnemonicParsing="false" onAction="#deleteFriend" text="Delete Friend" />
+                        <Button fx:id="deleteFriend" layoutX="258.0" layoutY="76.0" mnemonicParsing="false" onAction="#deleteFriend" text="Delete Friend" />
+                        <Button fx:id="saveFriend" layoutX="443.0" layoutY="76.0" mnemonicParsing="false" onAction="#saveFriend" text="Save Friend" />
+                        <Button fx:id="loadFriend" layoutX="263.0" layoutY="303.0" mnemonicParsing="false" onAction="#loadFriend" text="Load Friend" />
+                        <TextField fx:id="filenamer" layoutX="309.0" layoutY="227.0" promptText="filename.txt" />
+                        <Button fx:id="clearList" layoutX="411.0" layoutY="303.0" mnemonicParsing="false" onAction="#clearList" text="Wipe Viewing The List" />
                      </children></AnchorPane>
               </content>
             </Tab>

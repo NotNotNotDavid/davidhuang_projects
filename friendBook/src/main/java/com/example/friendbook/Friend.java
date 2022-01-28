@@ -1,13 +1,15 @@
 package com.example.friendbook;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Friend {
     public String firstName;
-    public String lastName;
     public int age;
 
-    public Friend(String firstName, String lastName, int age) {
+    public Friend(String firstName, int age) {
         this.firstName = firstName;
-        this.lastName = lastName;
         this.age = age;
     }
 
@@ -19,14 +21,6 @@ public class Friend {
         this.firstName = firstName;
     }
 
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
     public int getAge() {
         return age;
     }
@@ -36,6 +30,19 @@ public class Friend {
     }
 
     public String toString(){
-        return firstName;
+        return "Name: " + firstName + "\tAge: " + age;
+    }
+
+    public void writeToFile(String filename) throws IOException{
+        FileWriter fw = new FileWriter(filename,true);
+        BufferedWriter bw = new BufferedWriter(fw);
+        bw.write(firstName + ",\r");
+        bw.write(age + "\r");
+        bw.write(";\r");
+        bw.close();
+    }
+
+    public boolean compareFriend(Friend p){
+        return this.firstName.equals(p.firstName);
     }
 }
